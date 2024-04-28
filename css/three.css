@@ -30,7 +30,7 @@ body{
   font-size: 27px;
   text-transform: capitalize;
   position: absolute;
-  background-image: url("../images_project/arrow-up.png");
+  background-image: url("../arrow-up.png");
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -101,7 +101,7 @@ body{
 #m_hassan_two_start .container .back-ground{
   width: 100%;
   height: 790px;
-  background-image: url("../images_project/woman-wheelchair-painting-outdoors.jpg");
+  background-image: url("../woman-wheelchair-painting-outdoors.jpg");
   background-size: cover;
 }
 #m_hassan_two_start .container .back-ground section h1{
@@ -137,26 +137,26 @@ body{
  
 }
 #m_hassan_two_about .container .up .collect .im1{
-  background-image: url("../images_project/girl-helping-her-colleague-wheelchair-choose-book-project.jpg");
+  background-image: url("../girl-helping-her-colleague-wheelchair-choose-book-project.jpg");
   background-size: cover;
   width: 400px;
   height: 460px;
 }
 #m_hassan_two_about .container .up .collect .im2{
   background-size: cover;
-  background-image: url("../images_project/couple-conversing-city-with-electric-scooters.jpg");
+  background-image: url("../couple-conversing-city-with-electric-scooters.jpg");
   width: 400px;
   height: 460px;
 }
 #m_hassan_two_about .container .up .collect .im3{
   background-size: cover;
-  background-image: url("../images_project/portrait-adult-woman-working-laptop.jpg");
+  background-image: url("../portrait-adult-woman-working-laptop.jpg");
   width: 400px;
   height: 460px;
 }
 #m_hassan_two_about .container .up .collect .im4{
   background-size: cover;
-  background-image: url("../images_project/full-shot-man-working-laptop.jpg");
+  background-image: url("../full-shot-man-working-laptop.jpg");
   width: 400px;
   height: 460px;
 }
@@ -290,38 +290,38 @@ justify-content: center;
 
 
 #m_hassan_two_content .container table  tbody .one{
-  background-image: url("../images_project/alabaster-co-e85JEd135Xc-unsplash.jpg");
+  background-image: url("../alabaster-co-e85JEd135Xc-unsplash.jpg");
   background-size: cover;
   width: 400px;
   height: 500px;
 }
 #m_hassan_two_content .container table  tbody .two{
-  background-image: url("../images_project/alabaster-co-DPzCzOVcZ_c-unsplash.jpg");
+  background-image: url("../alabaster-co-DPzCzOVcZ_c-unsplash.jpg");
   background-size: cover;
   width: 400px;
   height: 500px;
 }
 #m_hassan_two_content .container table  tbody .three{
   background-size: cover;
-  background-image: url("../images_project/alabaster-co-1lfJLuAdLn0-unsplash.jpg");
+  background-image: url("../alabaster-co-1lfJLuAdLn0-unsplash.jpg");
   width: 400px;
   height: 500px;
 }
 #m_hassan_two_content .container table  tbody .four{
   background-size: cover;
-  background-image: url("../images_project/alabaster-co-UdommT4taDY-unsplash.jpg");
+  background-image: url("../alabaster-co-UdommT4taDY-unsplash.jpg");
   width: 400px;
   height: 500px;
 }
 #m_hassan_two_content .container table  tbody .five{
   background-size: cover; 
-   background-image: url("../images_project/alabaster-co-EEle5lCxOxY-unsplash.jpg");
+   background-image: url("../alabaster-co-EEle5lCxOxY-unsplash.jpg");
    width: 400px;
    height: 500px;
 }
 #m_hassan_two_content .container table  tbody .six{
   background-size: cover;
-  background-image: url("../images_project/alabaster-co-7hXU7ZsWVhY-unsplash.jpg");
+  background-image: url("../alabaster-co-7hXU7ZsWVhY-unsplash.jpg");
   width: 400px;
   height: 500px;
 }
@@ -453,7 +453,7 @@ height: 40px;
   font-size: 27px;
   text-transform: capitalize;
   position: absolute;
-  background-image: url("../images_project/up-arrow.png");
+  background-image: url("../up-arrow.png");
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -518,7 +518,7 @@ height: 40px;
 
 
 #m_hassan_one_start .container section{
-  background-image: url("../images_project/side-view-young-woman-wheelchair.jpg");
+  background-image: url("../side-view-young-woman-wheelchair.jpg");
   background-size: cover;
   width: 85%;
   height: 1000px;
@@ -620,7 +620,7 @@ height: 40px;
   transform: translateX(-100%) rotateY(-180deg);
 }
 #m_hassan_one_content .container .content .book .front1{
-  background-image: url("../images_project/alabaster-co-BR7gxh99LJM-unsplash.jpg");
+  background-image: url("../alabaster-co-BR7gxh99LJM-unsplash.jpg");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -634,7 +634,7 @@ height: 40px;
   background-size: cover;
 }
 #m_hassan_one_content .container .content .book .front2{
-  background-image: url("../images_project/alabaster-co-eXh0-n2A_Nw-unsplash.jpg");
+  background-image: url("../alabaster-co-eXh0-n2A_Nw-unsplash.jpg");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -648,7 +648,7 @@ height: 40px;
   background-size: cover;
 }
 #m_hassan_one_content .container .content .book .front3{
-  background-image: url("../images_project/alabaster-co-gz4NKm2kzQo-unsplash.jpg");
+  background-image: url("../alabaster-co-gz4NKm2kzQo-unsplash.jpg");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -662,7 +662,7 @@ height: 40px;
   background-size: cover;
 }
 #m_hassan_one_content .container .content .book .front4{
-  background-image: url("../images_project/alabaster-co-Hf8A_V0PmGs-unsplash.jpg");
+  background-image: url("../alabaster-co-Hf8A_V0PmGs-unsplash.jpg");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -676,7 +676,7 @@ height: 40px;
   background-size: cover;
 }
 #m_hassan_one_content .container .content .book .front5{
-  background-image: url("../images_project/alabaster-co-huo8G6ep-X8-unsplash.jpg");
+  background-image: url("../alabaster-co-huo8G6ep-X8-unsplash.jpg");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -690,7 +690,7 @@ height: 40px;
   background-size: cover;
 }
 #m_hassan_one_content .container .content .book .front6{
-  background-image: url("../images_project/alabaster-co-lvZzciLSR0w-unsplash.jpg");
+  background-image: url("../alabaster-co-lvZzciLSR0w-unsplash.jpg");
   position: absolute;
   width: 100%;
   height: 100%;
@@ -931,7 +931,7 @@ height: 40px;
   font-size: 27px;
   text-transform: capitalize;
   position: absolute;
-  background-image: url("../images_project/arrow-up.png");
+  background-image: url("../arrow-up.png");
   background-size: cover;
   width: 50px;
   height: 50px;
@@ -1009,13 +1009,13 @@ height: 40px;
 
 }
 #m_hassan_index_start .container section .one .im1{
-  background-image: url("../images_project/side-view-smiley-girl-with-down-syndrome.jpg");
+  background-image: url("../side-view-smiley-girl-with-down-syndrome.jpg");
   width: 50%;
   background-size: cover;
   height: 815px;
 }
 #m_hassan_index_start .container section .one .im2{
-  background-image: url("../images_project/photo_2024-04-26_05-41-36.jpg");
+  background-image: url("../photo_2024-04-26_05-41-36.jpg");
   background-size: cover;
   width: 50%;
   height: 815px;
@@ -1081,7 +1081,7 @@ height: 40px;
 }
 
 #m_hassan_index_about .container .two{
-  background-image: url("../images_project/disabled-woman-wheelchair-with-daughter-family-walking-outside-park.jpg");
+  background-image: url("../disabled-woman-wheelchair-with-daughter-family-walking-outside-park.jpg");
   background-size: cover;
   width: 50%;
   height: 500px;
@@ -1135,7 +1135,7 @@ justify-content: center;
   
   }
   #m_hassan_index_content .container header .ph1{
-      background-image: url("../images_project/full-shot-smiley-disabled-woman-outdoors.jpg");
+      background-image: url("../full-shot-smiley-disabled-woman-outdoors.jpg");
       background-size: cover;
       width: 260px;
       margin: 20px;
@@ -1144,7 +1144,7 @@ justify-content: center;
       transition: 0.3s;
   }
   #m_hassan_index_content .container header .ph2{
-      background-image: url("../images_project/full-shot-smiley-friends-together-park.jpg");
+      background-image: url("../full-shot-smiley-friends-together-park.jpg");
       background-size: cover;
       width: 260px;
       margin: 20px;
@@ -1154,7 +1154,7 @@ justify-content: center;
 
   }
   #m_hassan_index_content .container header .ph3{
-      background-image: url("../images_project/full-shot-disabled-man-holding-dog.jpg");
+      background-image: url("../full-shot-disabled-man-holding-dog.jpg");
       background-size: cover;
       width: 260px;
       margin: 20px;
@@ -1163,7 +1163,7 @@ justify-content: center;
       transition: 0.3s;
   } 
   #m_hassan_index_content .container header .ph4{
-      background-image: url("../images_project/women-enjoying-time-with-their-friend-wheelchair.jpg");
+      background-image: url("../women-enjoying-time-with-their-friend-wheelchair.jpg");
       background-size: cover;
       width: 260px;
       margin: 20px;
@@ -1207,7 +1207,7 @@ justify-content: center;
 
 #m_hassan_index_content .container section .sp1{
  
-  background-image:url("../images_project/alabaster-co-ZGnRGDTX1Zo-unsplash.jpg");
+  background-image:url("../alabaster-co-ZGnRGDTX1Zo-unsplash.jpg");
   background-size: cover;
   width: 200px;
   height: 200px;
@@ -1217,13 +1217,13 @@ justify-content: center;
   left: 0;
   transform-origin: center;
   transform-style: preserve-3d;
-  transform: rotateY(calc(var(--i) * 60deg)) translateZ(400px);
+  transform: rotateY(calc(var(--i) * 90deg)) translateZ(300px);
 
 
 }
 
 #m_hassan_index_content .container section .sp2{
-  background-image:url("../images_project/alabaster-co-xnP7IKRClxs-unsplash.jpg");
+  background-image:url("../alabaster-co-xnP7IKRClxs-unsplash.jpg");
   background-size: cover;
   width: 200px;
   height: 200px;
@@ -1233,11 +1233,11 @@ justify-content: center;
   left: 0;
   transform-origin: center;
   transform-style: preserve-3d;
-  transform: rotateY(calc(var(--i) * 60deg)) translateZ(400px);
+  transform: rotateY(calc(var(--i) * 90deg)) translateZ(300px);
 
 }
 #m_hassan_index_content .container section .sp3{
-  background-image:url("../images_project/alabaster-co-WYC3pis6TIk-unsplash.jpg");
+  background-image:url("../alabaster-co-WYC3pis6TIk-unsplash.jpg");
   background-size: cover;
   width: 200px;
   height: 200px;
@@ -1247,12 +1247,12 @@ justify-content: center;
   left: 0;
   transform-origin: center;
   transform-style: preserve-3d;
-  transform: rotateY(calc(var(--i) * 60deg)) translateZ(400px);
+  transform: rotateY(calc(var(--i) * 90deg)) translateZ(300px);
 
 
 }
 #m_hassan_index_content .container section .sp4{
-  background-image:url("../images_project/alabaster-co-Sy1ohVoGciA-unsplash.jpg");
+  background-image:url("../alabaster-co-Sy1ohVoGciA-unsplash.jpg");
   background-size: cover;
   width: 200px;
   height: 200px;
@@ -1262,38 +1262,15 @@ justify-content: center;
   left: 0;
   transform-origin: center;
   transform-style: preserve-3d;
-  transform: rotateY(calc(var(--i) * 60deg)) translateZ(400px);
+  transform: rotateY(calc(var(--i) * 90deg)) translateZ(300px);
 
 }
-#m_hassan_index_content .container section .sp5{
-  background-image:url("../images_project/alabaster-co-KfWykSQPOX8-unsplash.jpg");
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform-origin: center;
-  transform-style: preserve-3d;
-  transform: rotateY(calc(var(--i) * 60deg)) translateZ(400px);
-
-}
-#m_hassan_index_content .container section .sp6{
-  background-image:url("../images_project/alabaster-co-RfInmIlNe6I-unsplash.jpg");
-  background-size: cover;
-  width: 200px;
-  height: 200px;
-  display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  transform-origin: center;
-  transform-style: preserve-3d;
-  transform: rotateY(calc(var(--i) * 60deg)) translateZ(400px);
 
 
-}
+
+
+
+
 
 #m_hassan_index_content .container section:hover {
   animation-play-state: paused;
