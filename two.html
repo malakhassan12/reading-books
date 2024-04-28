@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+
+   
+
+    <link href="css/collect.css" rel="stylesheet" id="stylesheet">
+    
+    <style>
+        .question {
+            cursor: pointer;
+            font-weight: bold;
+            width: 50px;
+            height: 50px;
+            background-color: white;
+            margin-top: 49px;
+            border: 1px;
+            box-shadow: 1px 1px 20px 5px #0000008f;
+            border-radius: 50px;
+            text-transform: capitalize;
+            margin-left: 130px;
+            }
+            .answer {
+                display: none;
+              
+            }
+           
+            
+            
+    </style>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kings&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kings&family=Purple+Purse&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!----------------------------------------------start------------------------------------------------------->
+    <div class="start" id="m_hassan_two_start">
+        <div class="container">
+            <header>
+                <img class="logo" src="images_project/love.png">
+                <ul>
+                   <li><a href="#m_hassan_two_content" data-lang="content">content</a></li>
+                    <li><a href="#m_hassan_two_about" data-lang="about">about</a></li>
+                    <li><a href="#m_hassan_two_podcast" data-lang="podcast">podcast</a></li>
+                    <li><a href="#m_hassan_two_contact" data-lang="contact">contact</a></li>
+                    <li><a href="" data-lang="back">back</a></li>
+                    <li>
+                        <img src="images_project/moon.png" id="m_hassan_two_icon" class="moon">
+                        <img src="images_project/sun.png" id="m_hassan_two_icon2" class="sun"  >
+                        <script>
+                            document.addEventListener('DOMContentLoaded', function() {
+                                const moonIcon = document.getElementById('m_hassan_two_icon'); // Select the moon icon
+                                const sunIcon = document.getElementById('m_hassan_two_icon2'); // Select the sun icon
+                        
+                                moonIcon.addEventListener('click', function() {
+                                    sunIcon.style.display = 'block'; // Show the sun icon
+                                    moonIcon.style.display = 'none'; // Hide the moon icon
+                                });
+                        
+                                sunIcon.addEventListener('click', function() {
+                                    moonIcon.style.display = 'block'; // Show the moon icon
+                                    sunIcon.style.display = 'none'; // Hide the sun icon
+                                });
+                            });
+                        </script>
+                    </li>
+
+                    <li>
+                        <select id='language-selector'>
+                            <option value="en">English</option>
+                            <option value="ar">Arabic</option>
+                        </select>
+                    </li>
+                    <li>
+                        <audio autoplay controls>
+                            <source src="audios/cinematic-dramatic-11120.mp3" type="audio/mp3">
+                        </audio>
+                    </li>
+                    <li>
+                        <button onclick="changeStyleSheet()" data-lang="change">Change CSS</button>
+
+                        <script>
+                        function changeStyleSheet() {
+                            var stylesheet = document.getElementById('stylesheet');
+                            
+                            // Check the current href attribute
+                            if (stylesheet.href.endsWith('css/collect.css')) {
+                                // Change to style2.css
+                                stylesheet.href = 'css/three.css';
+                            } else {
+                                // Change back to style1.css
+                                stylesheet.href = 'css/collect.css';
+                            }
+                        }
+                        </script>
+
+                    </li>
+                   
+                </ul>
+            </header>
+           
+            <div class="back-ground">
+                <section>
+                    <h1 data-lang="two_start_section_h1">welcome to section people wih special needs</h1>
+                    <p data-lang="two_start_section_p">Being angry about my disability is a waste of time,<br> one has to move forward and move forward in life,<br> if you are constantly angry or complaining<br> people will not have time for you.</p>
+                </section>
+            </div>
+           
+        </div>
+    </div>
+   <!-----------------------------------------------------around------------------------------------------------------>
+   <div class="about" id="m_hassan_two_about">
+    <div class="container">
+        <a href="#start" id="home" ></a>
+        <div class="up">
+            <div class="collect">
+                <div class="im1">
+                    <p data-lang="two_about_p1">People of determination and disabilities are the stars<br> capable of lighting up the world.</p>
+                </div>
+                <div class="im2">
+                    <p data-lang="two_about_p2">All human beings are responsible for populating the earth and creating life<br>, so no one is without a role.</p>
+                </div>  
+                <div class="im3">
+                    <p data-lang="two_about_p3">Good luck, determined person.<br> There is a miracle on earth,<br> and in heaven, your inability goes to heaven before you.</p>
+                </div>
+                <div class="im4">
+                    <p data-lang="two_about_p4">One of the greatest values ​​of life is sanctifying man,<br> sanctifying himself, <br>and respecting everything God created.</p>
+                </div>  
+            </div>
+        </div>
+        
+    </div>
+    
+</div>
+
+
+<a href="#m_hassan_two_start" id="m_hassan_two_home" ></a>
+
+
+<!--------------------------------------------------------content-------------------------------------------------->
+
+
+
+<div class="content" id="m_hassan_two_content">
+    <div class="container">
+       <header>
+            <h1 data-lang="m_hassan_two_content_h1">books reading</h1>
+            <button class="question" data-lang="question">read</button>
+       </header>
+        <table class="answer">
+            <tbody>
+                <tr>
+                    <td class="one">
+                        <h3>الدكتور: سهير محمد سلامه شاش </h3>
+                        <p>التربية الخاصة للمعاقين عقليا بين العزل و الدمج </p>
+                        <a href="pdfs/Noor-Book.com التربية الخاصة للمعاقين عقليا بين العزل و الدمج 2 .pdf" data-lang="question" class="in">read</a>
+                    </td>
+    
+                    <td class="two">
+                        <h3>الدكتور: عبد الرحمن سيد سليمان</h3>
+                        <p> سيكولوجيه ذوي الحاجات الخاصة ج1 المفهوم والفئات </p>
+                         <a href="pdfs/Noor-Book.com سيكولوجيه ذوي الحاجات الخاصة ج1 المفهوم و الفئات 3 .pdf" data-lang="question" class="in">read</a>
+                    </td>
+                    
+    
+                </tr>
+    
+                <tr>
+                    <td class="three">
+                        <h3>الدكتور: محمد مراح</h3>
+                        <p>أصحاب الإحتياجات الخاصة </p>
+                        <a href="pdfs/Noor-Book.com أصحاب الإحتياجات الخاصة 3 .pdf" data-lang="question" class="in">read</a>
+                    </td>
+    
+                    <td class="four">
+                        <h3>الدكتور : مصطفى نوري القمش </h3>
+                        <p>اضطرابات التوحد   </p>
+                        <a href="pdfs/Noor-Book.com اضطرابات التوحد الأسباب التشخيص العلاج دراسات علمية الدكتور مصطفى نوري القمش 2 .pdf" data-lang="question" class="in">read</a>
+                    </td>
+                </tr>
+    
+                <tr>
+                    <td class="five">
+                        <h3>الدكتور:  جيهان مصطفي  </h3>
+                        <p> التوحد</p>
+                        <a href="pdfs/Noor-Book.com التوحد.pdf" data-lang="question" class="in">read</a>
+                    </td>
+    
+                    <td class="six">
+                        <h3>الدكتور: سوسن شاكر  جلبي </h3>
+                        <p>التوحد الطفولي</p>
+                        <a href="pdfs/Noor-Book.com التوحد الطفولي أسبابه خصائصه تشخيصه علاجه 2 .pdf" data-lang="question" class="in">read</a>
+                    </td>
+                </tr>
+              
+            </tbody>
+        
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <a href="one.html" data-lang="two_content_a" class="more">more read</a>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        <script>
+            // JavaScript to toggle visibility of answers
+            const buttons = document.querySelectorAll('.question');
+            buttons.forEach(button => {
+                button.addEventListener('click', () => {
+                    const answer = button.parentElement.nextElementSibling;
+                    if (answer.style.display === 'block') {
+                        answer.style.display = 'none';
+                    } else {
+                        answer.style.display = 'block';
+                    }
+                });
+            });
+        </script>
+       
+        
+
+    </div>
+</div>
+   
+    
+    
+    <a href="#m_hassan_two_start" id="m_hassan_two_home" ></a>
+  
+<!-------------------------------------------------podcast--------------------------------------------------------->
+
+    <div class="podcast" id="m_hassan_two_podcast">
+        <div class="container">
+            <h1 data-lang="two_podcast_h1">podcast</h1>
+            <div class="video">
+                <iframe width="640" height="360" src="https://www.youtube.com/embed/opxOk7rWUQo" title="واقع ذوي الإعاقة مع عبدالرحمن سامي || سوشل بودكاست🎙️" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <a href="#m_hassan_two_start" id="m_hassan_two_home" ></a>
+
+
+
+
+
+
+
+
+
+<!------------------------------------------------contact------------------------------------------------------------->
+    <div class="contact" id="m_hassan_two_contact">
+        <div class="container">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.231282230306!2d151.307011!3d-33.67707499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b0d54a318442175%3A0x20077e99e79db860!2sTex+Mex+Restaurant+-+Mona+Vale!5e0!3m2!1sen!2sau!4v1432343110125" width="600" height="450" frameborder="0" style="border:0"></iframe>
+            <div class="form">
+                <img src="images_project/view-electronic-product-balancing-podium.jpg">
+                <form>
+                    <h1>contact us form</h1>
+                    <input type="text" class="in1" placeholder="your name" data-lang="two_contact_input1" style="margin-bottom: 0">
+                    <input type="email" class="in1" placeholder="your email" data-lang="two_contact_input2">
+                    <textarea placeholder="type your message here" ></textarea>
+                    <input type="submit" class="in2" value="send" data-lang="two_contact_input4">
+                </form>
+            </div>
+        </div>
+    </div>
+    <a href="#m_hassan_two_start" id="m_hassan_two_home" ></a>
+    
+
+
+    <script src="text.js"></script>
+    <script>
+        var icon=document.getElementById("m_hassan_two_icon");
+        icon.onclick =function(){
+            document.body.classList.toggle("dark-theme");
+        }
+        var icon2=document.getElementById("m_hassan_two_icon2");
+        icon2.onclick =function(){
+            document.body.classList.toggle("dark-theme");
+        }
+    </script>
+</body>
+</html>

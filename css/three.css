@@ -1,0 +1,1420 @@
+body{
+  margin: 0;
+  background-color: var(--primary-color);
+}
+:root{
+  --primary-color:white;
+  --secondary-color:#212121;
+}
+.dark-theme{
+  --primary-color:#000106;
+  --secondary-color:#fff;
+}
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-two=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+#m_hassan_two_icon{
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+  
+}
+#m_hassan_two_icon2{
+    display: none;
+    width: 40px;
+    cursor: pointer;
+    height: 40px;
+  
+}
+#m_hassan_two_home{
+  text-decoration: none;
+  font-size: 27px;
+  text-transform: capitalize;
+  position: absolute;
+  background-image: url("../images_project/arrow-up.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin-left: 1166px;
+  margin-top: -83px;
+}
+
+#m_hassan_two_start{
+  width: 100%;
+  height: 1000px;
+  display: grid;
+  justify-content: center;
+  background: linear-gradient(#BB8493,#DBAFA0,#704264,#DBAFA0);
+}
+#m_hassan_two_start .container{
+  display: grid;
+  height: 880px;
+  background-color: #DBAFA0;
+  width: 1157px;
+  margin-top: 52px;
+
+}
+#m_hassan_two_start .container header{
+  width: 100%;
+  height: 88px;
+  display: flex;
+ 
+  border-bottom: 2px solid;
+}
+#m_hassan_two_start .container header .logo{
+  width: 70px;
+  height: 70px;
+  margin-left: 10px;
+}
+#m_hassan_two_start .container header ul{
+  display: flex;
+  list-style: none;
+  gap: 15px;
+}
+#m_hassan_two_start .container header ul select{
+  font-size: 20px;
+  background-color: transparent;
+  border: 1px;
+}
+#m_hassan_two_start .container header ul audio{
+  
+}
+#m_hassan_two_start .container header ul a{
+  font-size: 25px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  transition: 0.3s;
+}
+#m_hassan_two_start .container header ul button{
+  
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  border: 1px solid;
+  cursor: pointer;
+}
+#m_hassan_two_start .container header ul a:hover{
+  color: #000106;
+}
+
+
+#m_hassan_two_start .container .back-ground{
+  width: 100%;
+  height: 790px;
+  background-image: url("../images_project/woman-wheelchair-painting-outdoors.jpg");
+  background-size: cover;
+}
+#m_hassan_two_start .container .back-ground section h1{
+  font-size: 37px;
+  text-align: center;
+  text-transform: capitalize;
+  text-shadow: 10px 10px 10px black;
+}
+#m_hassan_two_start .container .back-ground section p{
+  font-size: 24px;
+  text-align: center;
+}
+#m_hassan_two_start .container .back-ground section{
+  background-color: #00000038;
+  width: 100%;
+  height: 790px;
+  margin-top: -31px;
+}
+/*============================================================================================================*/
+#m_hassan_two_about{
+  width: 100%;
+  height: 1230px;
+  margin-top: 35px;
+}
+#m_hassan_two_about .container .up{
+  display: grid;
+  justify-content: center;
+}
+#m_hassan_two_about .container .up .collect{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  gap: 138px;
+ 
+}
+#m_hassan_two_about .container .up .collect .im1{
+  background-image: url("../images_project/girl-helping-her-colleague-wheelchair-choose-book-project.jpg");
+  background-size: cover;
+  width: 400px;
+  height: 460px;
+}
+#m_hassan_two_about .container .up .collect .im2{
+  background-size: cover;
+  background-image: url("../images_project/couple-conversing-city-with-electric-scooters.jpg");
+  width: 400px;
+  height: 460px;
+}
+#m_hassan_two_about .container .up .collect .im3{
+  background-size: cover;
+  background-image: url("../images_project/portrait-adult-woman-working-laptop.jpg");
+  width: 400px;
+  height: 460px;
+}
+#m_hassan_two_about .container .up .collect .im4{
+  background-size: cover;
+  background-image: url("../images_project/full-shot-man-working-laptop.jpg");
+  width: 400px;
+  height: 460px;
+}
+
+#m_hassan_two_about .container .up .collect p{
+  color: transparent;
+  font-size: 26px;
+  padding: 10px;
+  transition: 0.3s;
+  width: 380px;
+  height: 400px;
+  background-color: transparent;
+  margin-top: 0px;
+  padding-left: 10px;
+  padding-top: 50px;
+}
+#m_hassan_two_about .container .up .collect p:hover{
+  color: white;
+  background-color: #0000007d;
+
+}
+/*========================================================================================================*/
+#m_hassan_two_content{
+  width: 100%;
+ 
+  display: grid;
+  justify-content: center;
+  margin-top: 200px;
+}
+#m_hassan_two_content .container{
+  width: 1088px;
+ background-color: #DBAFA0;
+
+  
+  display: grid;
+  justify-content: center;
+  box-shadow: 1px 1px 10px 10px black;
+}
+
+
+
+
+#m_hassan_two_content .container table tfoot tr td .more{
+  background-color: #DBAFA0;
+
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+  margin-top: 20px;
+  margin-left: 312px;
+  text-transform: capitalize;
+  border-radius: 50px;
+  width: 161px;
+}
+
+
+#m_hassan_two_content .container table  tbody{
+  
+}
+#m_hassan_two_content .container  header{
+  display: flex;
+justify-content: center;
+}
+
+#m_hassan_two_content .container  header h1{
+  font-size: 50px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+#m_hassan_two_content .container table  tbody tr p{
+  color: transparent;
+  transition: 0.3s;
+ text-align: center;
+  
+  font-size: 22px;
+  font-weight: 600;
+}
+#m_hassan_two_content .container table  tbody td::before{
+  width: 401px;
+  height: 500px;
+  background-color: transparent;
+  content: "";
+  position: absolute;
+  margin-top: -145px;
+ 
+}
+#m_hassan_two_content .container table tbody td:hover::before {
+  background-color: rgba(0, 0, 0, 0.233);
+}
+#m_hassan_two_content .container table  tbody td:hover p{
+  color: black;
+ 
+}
+
+#m_hassan_two_content .container table  tbody td h3{
+  color: transparent;
+  transition: 0.3s;
+  text-align: center;
+  font-size: 35px;
+}
+#m_hassan_two_content .container table  tbody td:hover h3{
+  color: black;
+ 
+}
+#m_hassan_two_content .container table tbody tr .in{
+ 
+  visibility: hidden;
+  color: black;
+  font-size: 43px;
+  text-decoration: none;
+  text-transform: capitalize;
+  margin-left: 144px;
+  cursor: pointer;
+  position: relative;
+   z-index: 1;
+}
+#m_hassan_two_content .container table  tbody td:hover .in{
+  visibility: visible;
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+#m_hassan_two_content .container table  tbody .one{
+  background-image: url("../images_project/alabaster-co-e85JEd135Xc-unsplash.jpg");
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+}
+#m_hassan_two_content .container table  tbody .two{
+  background-image: url("../images_project/alabaster-co-DPzCzOVcZ_c-unsplash.jpg");
+  background-size: cover;
+  width: 400px;
+  height: 500px;
+}
+#m_hassan_two_content .container table  tbody .three{
+  background-size: cover;
+  background-image: url("../images_project/alabaster-co-1lfJLuAdLn0-unsplash.jpg");
+  width: 400px;
+  height: 500px;
+}
+#m_hassan_two_content .container table  tbody .four{
+  background-size: cover;
+  background-image: url("../images_project/alabaster-co-UdommT4taDY-unsplash.jpg");
+  width: 400px;
+  height: 500px;
+}
+#m_hassan_two_content .container table  tbody .five{
+  background-size: cover; 
+   background-image: url("../images_project/alabaster-co-EEle5lCxOxY-unsplash.jpg");
+   width: 400px;
+   height: 500px;
+}
+#m_hassan_two_content .container table  tbody .six{
+  background-size: cover;
+  background-image: url("../images_project/alabaster-co-7hXU7ZsWVhY-unsplash.jpg");
+  width: 400px;
+  height: 500px;
+}
+/*=====================================================================================================*/
+#m_hassan_two_podcast{
+  background-color: var(--primary-color);
+  width: 100%;
+  height: 800px;
+  margin-top: 128px;
+}
+#m_hassan_two_podcast .container{
+  display: flex;
+  gap: 176px;
+  
+}
+#m_hassan_two_podcast .container h1{
+  color: #DBAFA0;
+  text-transform: capitalize;
+  font-family: "Purple Purse", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 100px;
+  margin-top: 200px;
+  text-align: center;
+}
+#m_hassan_two_podcast .container .video{
+  margin-top: 50px;
+  background-color: #DBAFA0;
+  width: 700px;
+  height: 500px;
+  display: grid;
+  justify-content: center;
+}
+#m_hassan_two_podcast .container .video iframe{
+  margin-top: 70px;
+  width: 669px;
+  display: inherit;
+}
+/*=====================================================================================================*/
+#m_hassan_two_contact{
+  width: 100%;
+  height: 847px;
+  position: relative;
+  justify-content: center;
+  display: grid;
+  background-color: #DBAFA0;
+  }
+  
+  #m_hassan_two_contact .container{
+    width: 1024px;
+    height: 545px;
+    display: flex;
+    margin-top: 142px;
+    gap: 32px;
+    justify-content: center;
+  
+  
+  }
+  #m_hassan_two_contact .container iframe{
+    width: 500px;
+    height: 501px;
+  }
+  #m_hassan_two_contact .container .form{
+    display: flex;
+    background-color: white;
+    gap: 129px;
+    width: 511px;
+    height: 501px;
+  }
+  #m_hassan_two_contact .container .form img{
+    width: 250px;
+   
+  }
+  #m_hassan_two_contact .container .form form{
+    display: grid;
+  gap: 15px;
+  position: relative;
+  font-size: 17px;
+  height: 484px;
+  width: 250px;
+  margin-left: -122px;
+  
+  }
+  #m_hassan_two_contact .container .form form .in1{
+    height: 64px;
+  }
+  #m_hassan_two_contact .container .form form textarea{
+    height: 64px;
+  }
+
+  #m_hassan_two_contact .container .form form .in2{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    border: 1px;
+    border-radius: 20px;
+    position: relative;
+    height: 87px;
+  }
+  
+  #m_hassan_two_contact .container .form form h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+
+
+
+/*-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=--=-=-=-one=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+
+#m_hassan_one_icon{
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+ 
+}
+#m_hassan_one_icon2{
+  display: none;
+width: 40px;
+cursor: pointer;
+height: 40px;
+
+}
+#m_hassan_one_home{
+  text-decoration: none;
+  font-size: 27px;
+  text-transform: capitalize;
+  position: absolute;
+  background-image: url("../images_project/up-arrow.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin-left: 1100px;
+  margin-top: -89px;
+}
+/*========================================================m_hassan_one_start===================================================*/
+#m_hassan_one_start{
+  width: 100%;
+  height: 1000px;
+}
+#m_hassan_one_start .container{
+  display: flex;
+  width: 100%;
+  height: 1000px;
+}
+
+#m_hassan_one_start .container header{
+  height: 1000px;
+  width: 15%;
+  background-color: #FF9800;
+}
+#m_hassan_one_start .container header .logo{
+  width: 70px;
+}
+#m_hassan_one_start .container header ul{
+  display: grid;
+  list-style: none;
+  margin-left: -30px;
+  gap: 76px;
+}
+#m_hassan_one_start .container header ul li select{
+  background-color: transparent;
+  border: 1px;
+  font-size: 20px;
+}
+#m_hassan_one_start .container header ul li button{
+  background-color: transparent;
+  border: 1px solid black;
+  font-size: 20px;
+  cursor: pointer;
+}
+#m_hassan_one_start .container header ul a{
+  font-size: 30px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: black;
+  transition: 0.3s;
+
+}
+#m_hassan_one_start .container header audio{
+ 
+    width: 169px;
+}
+
+#m_hassan_one_start .container header ul a:hover{
+ color: white;
+}
+
+
+
+
+
+#m_hassan_one_start .container section{
+  background-image: url("../images_project/side-view-young-woman-wheelchair.jpg");
+  background-size: cover;
+  width: 85%;
+  height: 1000px;
+  font-size: 43px;
+  padding-left: 42px;
+  text-transform: capitalize;
+  color: white;
+  text-shadow: 10px 10px 10px black;
+}
+
+#m_hassan_one_start .container section h1{
+  
+
+}
+#m_hassan_one_start .container section p{
+ 
+}
+
+
+
+/*====================================================m_hassan_one_content=============================================*/
+#m_hassan_one_content{
+  margin-top: 126px;
+}
+
+
+#m_hassan_one_content .container header{
+  background-color: #e4971d;
+  text-align: center;
+  width: 100%;
+  height: 100px;
+  padding-top: 42px;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 10px white;
+}
+#m_hassan_one_content .container header .ground h1{
+ 
+}
+ 
+#m_hassan_one_content .container header .ground{
+ 
+}
+
+
+#m_hassan_one_content .container .content{
+  
+  
+
+}
+#m_hassan_one_content .container .content .one video{
+  width: 100%;
+}
+#m_hassan_one_content .container .content .one img{
+  
+  width: 400px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+#m_hassan_one_content .container .content .one{
+  position: relative;
+}
+#m_hassan_one_content .container .content .one::after{
+  content: "";
+  background-image: url("../full-shot-happy-people-with-dog.jpg");
+  background-size: cover;
+  width: 600px;
+  height: 500px;
+  position: absolute;
+  margin-left: 215px;
+  margin-top: 65px;
+  opacity: 0;
+  transition: opacity 0.3s, transform 0.3s;
+}
+#m_hassan_one_content .container .content .one:hover::after{
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+
+
+#m_hassan_one_content .container .content .two{
+  display: grid;
+  grid-template-columns: repeat(3,auto);
+  gap: 180px;
+  justify-content: center;
+}
+
+#m_hassan_one_content .container .content .book{
+  width: 300px;
+  height: 300px;
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform 1s;
+  transform-origin: right center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+#m_hassan_one_content .container .content .book:hover{
+  transform: translateX(-100%) rotateY(-180deg);
+}
+#m_hassan_one_content .container .content .book .front1{
+  background-image: url("../images_project/alabaster-co-BR7gxh99LJM-unsplash.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  backface-visibility: hidden;
+  background-size: cover;
+}
+#m_hassan_one_content .container .content .book .front2{
+  background-image: url("../images_project/alabaster-co-eXh0-n2A_Nw-unsplash.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  backface-visibility: hidden;
+  background-size: cover;
+}
+#m_hassan_one_content .container .content .book .front3{
+  background-image: url("../images_project/alabaster-co-gz4NKm2kzQo-unsplash.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  backface-visibility: hidden;
+  background-size: cover;
+}
+#m_hassan_one_content .container .content .book .front4{
+  background-image: url("../images_project/alabaster-co-Hf8A_V0PmGs-unsplash.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  backface-visibility: hidden;
+  background-size: cover;
+}
+#m_hassan_one_content .container .content .book .front5{
+  background-image: url("../images_project/alabaster-co-huo8G6ep-X8-unsplash.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  backface-visibility: hidden;
+  background-size: cover;
+}
+#m_hassan_one_content .container .content .book .front6{
+  background-image: url("../images_project/alabaster-co-lvZzciLSR0w-unsplash.jpg");
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  backface-visibility: hidden;
+  background-size: cover;
+}
+
+
+
+
+
+
+
+
+#m_hassan_one_content .container .content .book .back{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  backface-visibility: hidden;
+  background-color: #9495EB;
+  transform: rotateY(180deg);
+  gap:80px;
+  text-align: center;
+
+}
+#m_hassan_one_content .container .content .book .back h3{
+  position: absolute;
+  margin-top: -150px;
+  font-size: 20px;
+  margin-left: 20px;
+
+}
+#m_hassan_one_content .container .content .book .back p{
+  position: absolute;
+  margin-top: 60px;
+  font-size: 20px;
+}
+
+
+
+
+
+
+#m_hassan_one_content .container footer{
+  width: 100%;
+  color: white;
+  display: grid;
+  justify-content: center;
+  background-color: #ffb534;
+  padding-bottom: 20px;
+}
+#m_hassan_one_content .container footer h1{
+  text-transform: capitalize;
+  text-align: center;
+}
+#m_hassan_one_content .container footer p{
+  color: #61aefe;
+}
+
+#m_hassan_one_content .container footer .icons{
+  display: flex;
+  gap: 50px;
+}
+#m_hassan_one_content .container footer .icons .im{
+  width: 30px;
+}
+#m_hassan_one_content .container footer .read{
+  margin-left: 70px;
+  text-decoration: none;
+  color: black;
+  background-color: white;
+  padding: 15px;
+  width: 50px;
+  margin-top: 50px;
+  text-align: center;
+  border-radius: 40px;
+  text-transform: capitalize;
+}
+
+
+/*=====================================m_hassan_one_useropinion===============================================*/
+#m_hassan_one_useropinion{
+  margin-top: 100px;
+  background-color: #ffb534;
+  position: relative;
+  z-index: -1;
+  width: 100%;
+}
+#m_hassan_one_useropinion .container{
+  display: flex;
+  gap: 170px;
+}
+#m_hassan_one_useropinion .container .phone{
+  display: grid;
+
+}
+#m_hassan_one_useropinion .container .phone .mo{
+  width: 576px;
+  height: 820px;
+  position: relative;
+  margin-left: -15px;
+}
+#m_hassan_one_useropinion .container .phone video{
+  width: 410px;
+  position: absolute;
+  margin-left: 67px;
+  margin-top: -9px;
+  height: 800px;
+  z-index: -1;
+}
+#m_hassan_one_useropinion .container .opin{
+  display: grid;
+  width: 700px;
+  height: 800px;
+  margin-top: 30px;
+}
+#m_hassan_one_useropinion .container .opin .text1{
+  display: flex;
+  background-color: white;
+  width: 400px;
+  height: 100px;
+  border-radius: 60px;
+  gap: 20px;
+}
+#m_hassan_one_useropinion .container .opin .text1 .person1{
+  width: 80px;
+  height: 80px;
+  border-radius: 80px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+#m_hassan_one_useropinion .container .opin .text1 p{
+  font-size: 17px;
+text-transform: capitalize;
+}
+
+
+
+
+/*============================================m_hassan_one_about===========================================*/
+#m_hassan_one_about{
+  margin-top: 200px;
+  width: 100%;
+  height: 3100px;
+  background-color: #6d131d;
+  display: grid;
+  justify-content: center;
+  position: relative;
+  z-index: -1;
+}
+#m_hassan_one_about h1{
+  font-family: "Kaushan Script", cursive;
+font-weight: 400;
+font-style: normal;
+position: absolute;
+color: #FF9800;
+margin-left: 340px;
+font-size: 60px;
+
+}
+#m_hassan_one_about .container{
+  display: flex;
+  width: 1210px;
+  background-color: #FF9800;
+  height: 2500px;
+  margin-top: 250px;
+  gap: 20px;
+  position: relative;
+  z-index: -1;
+  box-shadow: 1px 1px 100px 20px #633812;
+}
+#m_hassan_one_about .container .tall{
+  display: grid;
+}
+#m_hassan_one_about .container .tall .ta1{
+  width: 400px;
+}
+#m_hassan_one_about .container .short{
+  display: grid;
+  grid-template-columns: repeat(2,auto);
+  gap: 30px;
+  margin-top: 50px;
+
+}
+#m_hassan_one_about .container .short .sh1{
+  background-color: #0000003b;
+  position: relative;
+  width: 380px;
+  height: 280px;
+}
+#m_hassan_one_about .container .short .sh1 .ish{
+  position: relative;
+  z-index: -1;
+  width: 380px;
+  height: 280px;
+}
+#m_hassan_one_about .container .short .sh1 p{
+  text-transform: capitalize;
+  color: white;
+  position: absolute;
+  margin-top: -140px;
+  font-size: 25px;
+  padding-left: 20px;
+
+}
+
+
+/*=-=-=-=-=-=-=-=-=-=-=-=---=-=-=-==-=-=-=-=-=-=-=-=-=-index=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-==*/
+  
+#m_hassan_index_icon{
+  width: 40px;
+  cursor: pointer;
+  height: 40px;
+ 
+}
+#m_hassan_index_icon2{
+  display: none;
+width: 40px;
+cursor: pointer;
+height: 40px;
+
+}
+#m_hassan_index_home{
+  text-decoration: none;
+  font-size: 27px;
+  text-transform: capitalize;
+  position: absolute;
+  background-image: url("../images_project/arrow-up.png");
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  margin-left: 1115px;
+  margin-top: -96px;
+}
+/*===================================m_hassan_index_start========================================*/
+
+
+
+#m_hassan_index_start{
+  width: 100%;
+  height: 900px;
+}
+#m_hassan_index_start .container{
+  width: 100%;
+  height: 900px;
+}
+
+#m_hassan_index_start .container header{
+  background-color: #2C7865;
+  display: flex;
+  gap: 60px;
+  width: 100%;
+  height: 85px;
+  
+}
+#m_hassan_index_start .container header .logo{
+  width: 70px;
+  height: 70px;
+  margin-top: 10px;
+  border: 1px;
+  margin-left: 20px;
+}
+#m_hassan_index_start .container header ul{
+  display: flex;
+  gap: 37px;
+  list-style: none;
+}
+#m_hassan_index_start .container header ul li select{
+  background-color: transparent;
+  border: 1px;
+  font-size: 26px;
+}
+#m_hassan_index_start .container header ul a{
+  color: white;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 26px;
+  transition: 0.3s;
+
+}
+#m_hassan_index_start .container header ul button{
+  background-color: transparent;
+  font-size: 20px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+#m_hassan_index_start .container header ul a:hover{
+  color: #000106;
+}
+
+
+
+
+
+
+#m_hassan_index_start .container section{
+  width: 100%;
+  height: 815px;
+}
+#m_hassan_index_start .container section .one{
+  display: flex;
+  width: 100%;
+
+}
+#m_hassan_index_start .container section .one .im1{
+  background-image: url("../images_project/side-view-smiley-girl-with-down-syndrome.jpg");
+  width: 50%;
+  background-size: cover;
+  height: 815px;
+}
+#m_hassan_index_start .container section .one .im2{
+  background-image: url("../images_project/photo_2024-04-26_05-41-36.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 815px;
+
+}
+
+#m_hassan_index_start .container section .two{
+  position: absolute;
+  margin-top: -814px;
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  text-transform: capitalize;
+  background-color: #0000003b;
+  height: 561px;
+  padding-top: 253px;
+}
+#m_hassan_index_start .container section .two h1{
+  
+}
+#m_hassan_index_start .container section .two p{
+ 
+}
+
+/*==========================================m_hassan_index_about====================================*/
+
+#m_hassan_index_about{
+  width: 100%;
+  height: 1000px;
+  margin-top: 200px;
+}
+#m_hassan_index_about .container{
+  display: flex;
+  
+  gap: 30px;
+  margin: 20px;
+  height: 700px;
+
+
+}
+#m_hassan_index_about .container .one{
+  background-image: url("../full-shot-man-playing-basketball-outdoors.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+}
+#m_hassan_index_about .container .text{
+  position: absolute;
+  background-color: #90D26D;
+  width: 46.5%;
+  margin-top: 446px;
+  height: 180px;
+  color: white;
+  font-size: 20px;
+  padding-left: 10px;
+}
+#m_hassan_index_about .container  h2{
+  text-transform: capitalize;
+  font-size: 30px;
+  text-align: center;
+  text-shadow: 10px 10px 10px black;
+  
+}
+
+#m_hassan_index_about .container .two{
+  background-image: url("../images_project/disabled-woman-wheelchair-with-daughter-family-walking-outside-park.jpg");
+  background-size: cover;
+  width: 50%;
+  height: 500px;
+}
+
+
+
+
+
+/*===========================================m_hassan_index_content============================================================*/
+#m_hassan_index_content{
+  
+  width: 100%;
+  height: 971px;
+  
+  display: grid;
+  justify-content: center;
+
+}
+
+
+#m_hassan_index_content .container{
+  display: grid;
+  gap: 100px;
+  width: 1000px;
+  height: 900px;
+  margin-top: 50px;
+justify-content: center;
+}
+
+
+
+
+
+#m_hassan_index_content .container header{
+  display: flex;
+  margin-top: 20px;
+ background-color: #2C7865;
+  height: 400px;
+  border-radius: 30px;
+  
+  box-shadow: 1px 1px 50px 10px black;
+  overflow: hidden;
+}
+  #m_hassan_index_content .container header p{
+    font-size: 24px;
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    text-shadow: 10px 10px 6px black;
+  
+  }
+  #m_hassan_index_content .container header .ph1{
+      background-image: url("../images_project/full-shot-smiley-disabled-woman-outdoors.jpg");
+      background-size: cover;
+      width: 260px;
+      margin: 20px;
+      height: 360px;
+      border-radius: 40px;
+      transition: 0.3s;
+  }
+  #m_hassan_index_content .container header .ph2{
+      background-image: url("../images_project/full-shot-smiley-friends-together-park.jpg");
+      background-size: cover;
+      width: 260px;
+      margin: 20px;
+      height: 360px;
+      border-radius: 40px;
+      transition: 0.3s;
+
+  }
+  #m_hassan_index_content .container header .ph3{
+      background-image: url("../images_project/full-shot-disabled-man-holding-dog.jpg");
+      background-size: cover;
+      width: 260px;
+      margin: 20px;
+      height: 360px;
+      border-radius: 40px;
+      transition: 0.3s;
+  } 
+  #m_hassan_index_content .container header .ph4{
+      background-image: url("../images_project/women-enjoying-time-with-their-friend-wheelchair.jpg");
+      background-size: cover;
+      width: 260px;
+      margin: 20px;
+      height: 360px;
+      border-radius: 40px;
+      transition: 0.3s;
+  }
+  #m_hassan_index_content .container header .ph1:hover  {
+      transform:  scale(1.1);
+  }
+  #m_hassan_index_content .container header .ph2:hover  {
+      transform:  scale(1.1);
+  }
+  #m_hassan_index_content .container header .ph3:hover  {
+      transform:  scale(1.1);
+  }
+  #m_hassan_index_content .container header .ph4:hover  {
+      transform:  scale(1.1);
+  }
+
+#m_hassan_index_content .container section{
+ position: relative;
+
+ transform-style: preserve-3d;
+
+ width: 200px;
+  height: 224px;
+ animation: animate 20s linear infinite;
+ margin-left: 421px;
+
+}
+@keyframes animate{
+
+  0%{
+    transform: perspective(1000px) rotateY(0deg);
+  }
+  100%{
+    transform: perspective(1000px) rotateY(360deg);
+  }
+}
+
+#m_hassan_index_content .container section .sp1{
+ 
+  background-image:url("../images_project/alabaster-co-ZGnRGDTX1Zo-unsplash.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 60deg)) translateZ(400px);
+
+
+}
+
+#m_hassan_index_content .container section .sp2{
+  background-image:url("../images_project/alabaster-co-xnP7IKRClxs-unsplash.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 60deg)) translateZ(400px);
+
+}
+#m_hassan_index_content .container section .sp3{
+  background-image:url("../images_project/alabaster-co-WYC3pis6TIk-unsplash.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 60deg)) translateZ(400px);
+
+
+}
+#m_hassan_index_content .container section .sp4{
+  background-image:url("../images_project/alabaster-co-Sy1ohVoGciA-unsplash.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 60deg)) translateZ(400px);
+
+}
+#m_hassan_index_content .container section .sp5{
+  background-image:url("../images_project/alabaster-co-KfWykSQPOX8-unsplash.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 60deg)) translateZ(400px);
+
+}
+#m_hassan_index_content .container section .sp6{
+  background-image:url("../images_project/alabaster-co-RfInmIlNe6I-unsplash.jpg");
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform-origin: center;
+  transform-style: preserve-3d;
+  transform: rotateY(calc(var(--i) * 60deg)) translateZ(400px);
+
+
+}
+
+#m_hassan_index_content .container section:hover {
+  animation-play-state: paused;
+}
+
+#m_hassan_index_content .container section span h3{
+  display: none;
+  color: #D20062;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+#m_hassan_index_content .container section span p{
+  display: none;
+  color: #D20062;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+}
+#m_hassan_index_content .container section span a{
+  display: none;
+  color: #D20062;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+#m_hassan_index_content .container section span:hover h3{
+  display: block;
+}
+
+#m_hassan_index_content .container section span:hover p{
+  display: block;
+}
+#m_hassan_index_content .container section span:hover a{
+  display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=========================================#m_hassan_index_contact======================================*/
+#m_hassan_index_contact{
+  margin-top: 230px;
+  background-color: #1A4D2E;
+  height: 500px;
+}
+#m_hassan_index_contact .container{
+  background-color: #4F6F52;
+  width: 800px;
+  height: 400px;
+  margin-left: 250px;
+  margin-top: 60px;
+  position: absolute;
+  box-shadow: 5px 10px 50px 16px black;
+}
+#m_hassan_index_contact .container .info{
+  background-color: #E8DFCA;
+width: 600px;
+height: 200px;
+position: absolute;
+margin-left: 100px;
+margin-top: 100px;
+box-shadow: 5px 10px 30px 10px #0000009e;
+}
+#m_hassan_index_contact .container .info p{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+}
+#m_hassan_index_contact .container .info p span{
+  color: #c2fa;
+}
+
+#m_hassan_index_contact .container .info h5{
+  text-align: center;
+  font-family: "Galada", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 26px;
+  margin-left: -400px;
+  margin-top: 6px;
+}
+#m_hassan_index_contact .container .info .icons{
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+#m_hassan_index_contact .container .info .icons img{
+  width: 40px;
+  height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

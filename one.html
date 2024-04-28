@@ -1,0 +1,528 @@
+<!DOCTYPE html >
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One</title>
+    <style>
+       .question {
+            cursor: pointer;
+            font-weight: bold;
+            margin-bottom: 5px;
+            cursor: pointer;
+            font-weight: bold;
+            margin-bottom: 5px;
+           
+            left: 150px;
+            width: 50px;
+            height: 50px;
+            background-color: #FFE6E6;
+            margin-top: 0px;
+            border: 1px;
+            box-shadow: 1px 1px 20px 5px #0000008f;
+            border-radius: 50px;
+            text-transform: capitalize;
+            margin-left: 130px;
+            }
+            .answer {
+                display: none;
+                gap: 50px;
+                margin-top: 80px;
+                background-color: #c2d9ff;
+                width: 300px;
+            }
+            .answer .pdf iframe{
+                width: 300px;
+                height: 300px;
+            }
+            .answer .video iframe{
+                width: 300px;
+                height: 300px;
+            }
+    </style>
+        <script async src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@latest/dist/lazyload.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kings&family=Luxurious+Roman&family=Purple+Purse&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+        
+        <link href="css/collect.css" rel="stylesheet" id="stylesheet">
+
+
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Kufi+Arabic:wght@100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Kufi+Arabic:wght@100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Mada:wght@200..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Kufi+Arabic:wght@100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&family=Damion&family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&family=Mada:wght@200..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Noto+Kufi+Arabic:wght@100..900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+        <script async src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@latest/dist/lazyload.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--------------------------------------------------introduction------------------------------------------------------->
+    
+    <div class="intro" id="m_hassan_one_start">
+        <div class="container">
+            <header>
+                <img class="logo" src="images_project/disabled-person.png">
+                <ul>
+                        <li><a href="#m_hassan_one_content" data-lang="one_intro_books">books</a></li>
+                        <li><a href="#m_hassan_one_about" data-lang="one_intro_more_info">more info</a> </li>
+                        <li><a href="#m_hassan_one_useropinion" data-lang="one_intro_user_opinion">user opinion</a></li>
+                        <li><a href="two.html" class="back1" data-lang="one_intro_back">back</a></li>
+                        <img src="images_project/moon.png" id="m_hassan_one_icon" class="moon">
+                        <img src="images_project/sun.png" id="m_hassan_one_icon2" class="sun"  >
+                        <script>
+                            document.addEventListener('DOMContentLoaded', function() {
+                                const moonIcon = document.getElementById('m_hassan_one_icon'); // Select the moon icon
+                                const sunIcon = document.getElementById('m_hassan_one_icon2'); // Select the sun icon
+                        
+                                moonIcon.addEventListener('click', function() {
+                                    sunIcon.style.display = 'block'; // Show the sun icon
+                                    moonIcon.style.display = 'none'; // Hide the moon icon
+                                });
+                        
+                                sunIcon.addEventListener('click', function() {
+                                    moonIcon.style.display = 'block'; // Show the moon icon
+                                    sunIcon.style.display = 'none'; // Hide the sun icon
+                                });
+                            });
+                        </script></li>
+                    <li>
+                        <select id='language-selector'>
+                            <option value="en">English</option>
+                            <option value="ar">Arabic</option>
+                        </select>
+                    </li>
+                    <li>
+                        <audio controls autoplay>
+                            <source src="audios/canyon-stright-200212.mp3" type="audio/mp3">
+                        </audio>
+                    </li>
+                    <li>
+                        <button onclick="changeStyleSheet()" data-lang="change">Change CSS</button>
+
+                        <script>
+                        function changeStyleSheet() {
+                            var stylesheet = document.getElementById('stylesheet');
+                            
+                            // Check the current href attribute
+                            if (stylesheet.href.endsWith('css/collect.css')) {
+                                // Change to style2.css
+                                stylesheet.href = 'css/three.css';
+                            } else {
+                                // Change back to style1.css
+                                stylesheet.href = 'css/collect.css';
+                            }
+                        }
+                        </script>
+
+                    </li>
+                
+                </ul>
+            </header>
+            <section>
+                <h1 data-lang="one_intro_h1">swap books,swap ideas</h1>
+                <p data-lang="one_intro_p">what's your favorite book ?</p>
+            </section>
+        </div>    
+    </div>
+<!-------------------------------------------------------books------------------------------------------------------->
+
+
+<div class="books" id="m_hassan_one_content">
+    <div class="container">
+        <header>
+           <div class="ground">
+                <h1 data-lang="one_books_h2">choose your favourite book</h1>
+           </div>
+        </header>
+
+        <div class="content">
+            <section class="one">
+                <video autoplay loop>
+                    <source src="videos/1105422_1080p_Students_Campus_1280x720.mp4" type="video/mp4">
+                </video>
+                <img src="images_project/boy-wheelchair-holding-bunch-books.jpg" width="600px">
+            </section>
+            <section class="two">
+                <div class="div1"> 
+                    <div class="book">
+                        <div class="front1"></div>
+                        <div class="back">
+                            <h3>دكتور: فاطمه عبد الرحيم النواسيه</h3>
+                            <p>ذوي الاحتياجات الخاصه التعريف بهم وارشادهم</p>
+                        </div>
+                    </div>
+                    <button class="question" data-lang="question">read</button>
+                        <div  class="answer">
+                            <div class="pdf">
+                                <iframe loading="lazy" allow="autoplay" height="480" src="pdfs/Noor-Book.com ذوو الاحتياجات الخاصة التعريف بهم و إرشادهم 2 .pdf" width="640"></iframe>
+                            </div>
+                            <div class="video">
+                                <iframe width="640" height="360" src="https://www.youtube.com/embed/NSN_ClxmB5I" title="A disabled boy turns playground bullies into friends. | Animated Short Film &quot;Ian&quot;" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+                        <script>
+                            // JavaScript to toggle visibility of answers
+                            const questions1 = document.querySelectorAll('.div1 .question');
+                            questions1.forEach(question => {
+                                question.addEventListener('click', () => {
+                                const answer = question.nextElementSibling;
+                                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                                });
+                            });
+                        </script>
+    
+                </div>
+                <div class="div2"> 
+                    <div class="book">
+                        <div class="front2"></div>
+                        <div class="back">
+                            <h3>الدكتور:أحمد عبد الحليم عربيات</h3>
+                            <p>إرشاد ذوي الحاجات الخاصة واسرهم</p>
+                        </div>
+                    </div>
+                    <button class="question" data-lang="question">read</button>
+                        <div  class="answer">
+                            <div class="pdf">
+                                <iframe loading="lazy" allow="autoplay" height="480" src="pdfs/Noor-Book.com إرشاد ذوي الحاجات الخاصة وأسرهم د أحمد عبد الحليم عربيات 2 .pdf" width="640"></iframe>
+                            </div>
+                            <div class="video">
+                                <iframe width="640" height="360" src="https://www.youtube.com/embed/rjluLV1F-UI" title="Inclusion of people with disabilities" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+                        <script>
+                            // JavaScript to toggle visibility of answers
+                            const questions2 = document.querySelectorAll('.div2 .question');
+                            questions2.forEach(question => {
+                                question.addEventListener('click', () => {
+                                const answer = question.nextElementSibling;
+                                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                                });
+                            });
+                        </script>
+    
+                </div>
+                <div class="div3"> 
+                    <div class="book">
+                        <div class="front3"></div>
+                        <div class="back">
+                            <h3>الدكتور: سعيد حسني العزة</h3>
+                            <p>المدخل إلى التربية الخاصة للاطفال ذوي الحاجات الخاصة</p>
+                        </div>
+                    </div>
+                    <button class="question" data-lang="question">read</button>
+                        <div  class="answer">
+                            <div class="pdf">
+                                <iframe loading="lazy" allow="autoplay" height="480" src="pdfs/Noor-Book.com لأول مرة المدخل إلى التربية الخاصة للأطفال ذوي الحاجات الخاصة سعيد حسني العزة 2 .pdf" width="640"></iframe>
+                            </div>
+                            <div class="video">
+                                <iframe width="640" height="360" src="https://www.youtube.com/embed/hBkCdyyiEpA" title="فيديو يوضح كيفية التعامل مع ذوي الاحتياجات الخاصة" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+                        <script>
+                            // JavaScript to toggle visibility of answers
+                            const questions3 = document.querySelectorAll('.div3 .question');
+                            questions3.forEach(question => {
+                                question.addEventListener('click', () => {
+                                const answer = question.nextElementSibling;
+                                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                                });
+                            });
+                        </script>
+    
+                </div>
+                <div class="div4"> 
+                    <div class="book">
+                        <div class="front4"></div>
+                        <div class="back">
+                            <h3>الدكتور: قحطان أحمد الظاهر</h3>
+                            <p>مدخل إلى التربية الخاصة</p>
+                        </div>
+                    </div>
+                    <button class="question" data-lang="question">read</button>
+                        <div  class="answer">
+                            <div class="pdf">
+                                <iframe loading="lazy" allow="autoplay" height="480" src="pdfs/Noor-Book.com مدخل إلى التربية الخاصة.pdf" width="640"></iframe>
+                            </div>
+                            <div class="video">
+                                <iframe width="640" height="360" src="https://www.youtube.com/embed/1WyNoUnlASU" title="التعامل مع ذوي الاحتياجات الخاصة" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+                        <script>
+                            // JavaScript to toggle visibility of answers
+                            const questions4 = document.querySelectorAll('.div4 .question');
+                            questions4.forEach(question => {
+                                question.addEventListener('click', () => {
+                                const answer = question.nextElementSibling;
+                                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                                });
+                            });
+                        </script>
+    
+                </div>
+                <div class="div5"> 
+                    <div class="book">
+                        <div class="front5"></div>
+                        <div class="back">
+                            <h3>الدكتور: عبد العزيز بن عوض السهلي</h3>
+                            <p>أخلاقيات الدمج للطلاب ذوي الاحتياجات الخاصة</p>
+                        </div>
+                    </div>
+                    <button class="question" data-lang="question">read</button>
+                        <div  class="answer">
+                            <div class="pdf">
+                                <iframe loading="lazy" allow="autoplay" height="480" src="pdfs/Noor-Book.com أخلاقيات الدمج للطلاب ذوي الاحتياجات الخاصة.pdf" width="640"></iframe>
+                            </div>
+                            <div class="video">
+                                <iframe width="640" height="360" src="https://www.youtube.com/embed/V5VK1rPQKmo" title="فيلم قصير (عالم الاطفال ذوي الاحتياجات الخاصة )" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+                        <script>
+                            // JavaScript to toggle visibility of answers
+                            const questions5 = document.querySelectorAll('.div5 .question');
+                            questions5.forEach(question => {
+                                question.addEventListener('click', () => {
+                                const answer = question.nextElementSibling;
+                                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                                });
+                            });
+                        </script>
+    
+                </div>
+                <div class="div6"> 
+                    <div class="book">
+                        <div class="front6"></div>
+                        <div class="back">
+                            <h3>الدكتور: مصعب سلمان السامرائي</h3>
+                            <p>رعاية ذوي الاحتياجات الخاصة ودورهم المعرفي</p>
+                        </div>
+                    </div>
+                    <button class="question" data-lang="question">read</button>
+                        <div  class="answer">
+                            <div class="pdf">
+                                <iframe loading="lazy" allow="autoplay" height="480" src="pdfs/dhwyi_alaihtiajat.pdf" width="640"></iframe>
+                            </div>
+                            <div class="video">
+                                <iframe width="640" height="360" src="https://www.youtube.com/embed/xmkhz5w-Cv4" title="!مفهوم الإعاقة، لنحب اختلافنا" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        
+                        <script>
+                            // JavaScript to toggle visibility of answers
+                            const questions6 = document.querySelectorAll('.div6 .question');
+                            questions6.forEach(question => {
+                                question.addEventListener('click', () => {
+                                const answer = question.nextElementSibling;
+                                answer.style.display = answer.style.display === 'block' ? 'none' : 'block';
+                                });
+                            });
+                        </script>
+    
+                </div>
+            </section>
+        </div>
+        <footer>
+            <h1 data-lang="one_footer_h1_1">contacts us</h1>
+            <p data-lang="one_footer_p">123.456.789</p>
+            <h1 data-lang="one_footer_h1_2">follow us</h1>
+            <div class="icons">
+                <img src="images_project/facebook(2).png" class="im">
+                <img src="images_project/twitter.png" class="im">
+                <img src="images_project/linkedin.png" class="im">
+            </div>
+            <a href="index.html" data-lang="one_footer_a" class="read">read more </a>
+            
+        </footer>
+    </div>
+    <a href="#m_hassan_one_start" id="m_hassan_one_home" ></a>
+   </div>
+   
+
+
+
+   
+    </div>
+</div>
+
+<!------------------------------------------------------------------------------------------------------------>
+<div class="useropinion" id="m_hassan_one_useropinion">
+    <div class="container">
+        <div class="phone">
+            <img src="images_project/kisspng-iphone-x-iphone-7-ios-12-messages-white-mobile-5b2948cfdf4383.6343998715294322719145.png" class="mo">
+            <video autoplay loop muted>
+                <source src="videos/7172120-uhd_2160_3840_25fps.mp4" type="video/mp4" >
+            </video>
+        </div>
+
+        <div class="opin">
+            <div class="text1">
+                <img src="images_project/pexels-serena-koi-3750908.jpg" class="person1">
+                <p data-lang="one_user_opinion_p1">
+                    that's mazig secton of books about people with .<br>
+                    speial needs
+                </p>
+            </div>
+
+            <div class="text1">
+                <img src="images_project/pexels-foto-sierra-5859635.jpg" class="person1">
+                <p data-lang="one_user_opinion_p2">
+                    books in this section is very good ,<br> i likedthis section.
+                </p>
+            </div>
+
+            <div class="text1">
+                <img src="images_project/pexels-george-dolgikh-1310478.jpg" class="person1">
+                <p data-lang="one_user_opinion_p3">
+                    these are the best books , i have red <br>the books are very important and wonderful.
+                </p>
+            </div>
+
+            <div class="text1">
+                <img src="images_project/pexels-behrouz-sasani-5825050.jpg" class="person1">
+                <p data-lang="one_user_opinion_p4">
+                    it is a humanitarian department are a very important one <br>and is importantfor community awareness.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+</div>
+<a href="#m_hassan_one_start" id="m_hassan_one_home" ></a>
+<!------------------------------------------------------------------------------------------------------------------>
+
+<div class="moreinfo" id="m_hassan_one_about">
+    <h1 data-lang="one_more_info_h1">people with special needs</h1>
+    <div class="container">
+       
+        <div class="tall">
+            <img src="images_project/photo_2024-04-07_07-53-18.jpg" class="ta1">
+            <img src="images_project/pexels-rdne-stock-project-7403365.jpg" class="ta1">
+            <img src="images_project/disabled-person-having-fun-with-friends.jpg" class="ta1">
+            <img src="images_project/portrait-disabled-woman-wheelchair.jpg" class="ta1">
+        </div>
+        <div class="short">
+            <div class="sh1">
+                <img class="ish" src="images_project/stock-photo-happy-young-latin-woman-in-wheelchair-and-her-friend-having-fun-outdoors-in-mexico-1938251848.jpg">
+                <p data-lang="one_more_info_p1">Don't look for what you lack, but for what is complete and sad</p>
+            </div>
+            <div class="sh1">
+                <img class="ish" src="images_project/stock-photo-happy-businesswoman-with-disability-and-her-female-colleague-cooperating-while-working-on-paperwork-2167346851.jpg">
+                <p data-lang="one_more_info_p2">My friend, you can do it as long as you breathe</p>
+            </div>
+            <div class="sh1">
+                <img class="ish" src="images_project/team-supporting-invalid-coworker.jpg">
+                <p data-lang="one_more_info_p3">Give yourself the chance to try and I don't think <br>you will ever let yourself down.</p>
+            </div>
+            <div class="sh1">
+                <img class="ish" src="images_project/young-adult-helping-disabled-friend.jpg">
+                <p data-lang="one_more_info_p4">Break the rules, jump, you are a case and you must <br>achieve the goal.</p>
+            </div>
+            <div class="sh1">
+                <img class="ish" src="images_project/portrait-paralyzed-businesswoman-working-startup-business-company.jpg">
+                <p data-lang="one_more_info_p5">Give life to your helplessness, plant hope in your soul<br>, for life is sweet for those who want it.</p>
+            </div>
+            <div class="sh1">
+                <img class="ish" src="images_project/disabled-man-helping-girl-learn(1).jpg">
+                <p data-lang="one_more_info_p6">When you forget, people will forget about your disability.</p>
+            </div>
+            <div class="sh1">
+                <img class="ish" src="images_project/disabled-man-helping-girl-learn.jpg">
+                <p data-lang="one_more_info_p7">Disabled people don't need pity as much as they need hope.</p>
+            </div>
+            <div class="sh1">
+                <img class="ish" src="images_project/full-shot-happy-friends-chatting-outdoors.jpg">
+                <p data-lang="one_more_info_p8">Hope is the food of the mind, ambition is the light of life,<br> and circumstances did not prevent anyone.</p>
+            </div>
+            <div class="sh1">
+                <img class="ish" src="images_project/full-shot-happy-people-with-dog.jpg">
+                <p data-lang="one_more_info_p9">Challenge life and let the newspapers publish your pictures <br>and talk about you as a miracle.</p>
+            </div>
+            <div class="sh1">
+                <img class="ish" src="images_project/AdobeStock_312502119_Preview.jpeg">
+                <p data-lang="one_more_info_p10">Will is to be what you want, not what life wants it to be.</p>
+            </div>
+            <div class="sh1">
+                <img class="ish" src="images_project/AdobeStock_384814533_Preview.jpeg">
+                <p data-lang="one_more_info_p11">Only frustration prevents access, and disability is an excuse<br> for those who do not want to come</p>
+            </div>
+            <div class="sh1">
+                <img class="ish" src="images_project/AdobeStock_420306667_Preview.jpeg">
+                <p data-lang="one_more_info_p12">I don't have a disability, I have a different talent.</p>
+            </div>
+            <div class="sh1">
+                <img class="ish" src="images_project/AdobeStock_430065124_Preview.jpeg">
+                <p data-lang="one_more_info_p13">My disability has opened my eyes to see my true potential.</p>
+            </div>
+            <div class="sh1">
+                <img class="ish" src="images_project/AdobeStock_410340625_Preview.jpeg">
+                <p data-lang="one_more_info_p14">When everyone says you can't, your perseverance says, Yes, you can.</p>
+            </div>
+            <div class="sh1">
+                <img class="ish" src="images_project/photo_٢٠٢٤-٠٣-٣١_١٦-٠٣-٤٥.jpg">
+                <p data-lang="one_more_info_p15">Do not think that life has let you down alone, let down<br> your disability and rise up.</p>
+            </div>
+            <div class="sh1">
+                <img class="ish" src="images_project/AdobeStock_328704970_Preview.jpeg">
+                <p data-lang="one_more_info_p16">Life is a laboratory, so do not let the stupidity of others<br> lead you into the trap of defeat.</p>
+            </div>
+
+        </div>
+        
+    </div>
+    
+</div>
+<a href="#m_hassan_one_start" id="m_hassan_one_home"></a>
+
+
+
+
+<script src="text.js"></script>
+<script>
+    var icon=document.getElementById("m_hassan_one_icon");
+    icon.onclick =function(){
+        document.body.classList.toggle("dark-theme");
+    }
+    var icon2=document.getElementById("m_hassan_one_icon2");
+    icon2.onclick =function(){
+        document.body.classList.toggle("dark-theme");
+    }
+</script>
+
+
+
+</body>
+</html>
