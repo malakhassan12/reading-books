@@ -49,7 +49,7 @@
     <div class="start" id="m_hassan_two_start">
         <div class="container">
             <header>
-                <img class="logo" src="images_project/love.png">
+                <img class="logo" src="love.png">
                 <ul>
                    <li><a href="#m_hassan_two_content" data-lang="content">content</a></li>
                     <li><a href="#m_hassan_two_about" data-lang="about">about</a></li>
@@ -57,8 +57,8 @@
                     <li><a href="#m_hassan_two_contact" data-lang="contact">contact</a></li>
                     <li><a href="" data-lang="back">back</a></li>
                     <li>
-                        <img src="images_project/moon.png" id="m_hassan_two_icon" class="moon">
-                        <img src="images_project/sun.png" id="m_hassan_two_icon2" class="sun"  >
+                        <img src="moon.png" id="m_hassan_two_icon" class="moon">
+                        <img src="sun.png" id="m_hassan_two_icon2" class="sun"  >
                         <script>
                             document.addEventListener('DOMContentLoaded', function() {
                                 const moonIcon = document.getElementById('m_hassan_two_icon'); // Select the moon icon
@@ -264,17 +264,50 @@
         <div class="container">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3320.231282230306!2d151.307011!3d-33.67707499999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b0d54a318442175%3A0x20077e99e79db860!2sTex+Mex+Restaurant+-+Mona+Vale!5e0!3m2!1sen!2sau!4v1432343110125" width="600" height="450" frameborder="0" style="border:0"></iframe>
             <div class="form">
-                <img src="images_project/view-electronic-product-balancing-podium.jpg">
-                <form>
+                <img src="view-electronic-product-balancing-podium.jpg">
+                <form id="contactForm">
                     <h1>contact us form</h1>
-                    <input type="text" class="in1" placeholder="your name" data-lang="two_contact_input1" style="margin-bottom: 0">
-                    <input type="email" class="in1" placeholder="your email" data-lang="two_contact_input2">
-                    <textarea placeholder="type your message here" ></textarea>
+                    <input type="text" id="name" class="in1" placeholder="your name" data-lang="two_contact_input1" style="margin-bottom: 0">
+                    <input type="email" id="email" class="in1" placeholder="your email" data-lang="two_contact_input2">
+                    <textarea id="message" placeholder="type your message here"></textarea>
                     <input type="submit" class="in2" value="send" data-lang="two_contact_input4">
                 </form>
             </div>
         </div>
     </div>
+
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            var name = document.getElementById('name').value.trim();
+            var email = document.getElementById('email').value.trim();
+            var message = document.getElementById('message').value.trim();
+
+            
+            if (name === '') {
+                alert('Please enter your name.');
+                event.preventDefault(); 
+                return;
+            }
+
+            
+            var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailPattern.test(email)) {
+                alert('Please enter a valid email address.');
+                event.preventDefault(); 
+                return;
+            }
+
+            
+            if (message === '') {
+                alert('Please enter your message.');
+                event.preventDefault(); 
+                return;
+            }
+
+           
+        });
+    </script>
+
     <a href="#m_hassan_two_start" id="m_hassan_two_home" ></a>
     
 
