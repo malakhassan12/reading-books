@@ -93,28 +93,47 @@
             <header>
                 <img class="logo" src="disabled-person.png">
                 <ul>
-                        <li><a href="#m_hassan_one_content" data-lang="one_intro_books">books</a></li>
+                         <li><a href="#m_hassan_one_content" data-lang="one_intro_books">books</a></li>
                         <li><a href="#m_hassan_one_about" data-lang="one_intro_more_info">more info</a> </li>
                         <li><a href="#m_hassan_one_useropinion" data-lang="one_intro_user_opinion">user opinion</a></li>
                         <li><a href="two.html" class="back1" data-lang="one_intro_back">back</a></li>
-                        <img src="moon.png" id="m_hassan_one_icon" class="moon">
-                        <img src="sun.png" id="m_hassan_one_icon2" class="sun"  >
-                        <script>
-                            document.addEventListener('DOMContentLoaded', function() {
-                                const moonIcon = document.getElementById('m_hassan_one_icon'); // Select the moon icon
-                                const sunIcon = document.getElementById('m_hassan_one_icon2'); // Select the sun icon
-                        
-                                moonIcon.addEventListener('click', function() {
-                                    sunIcon.style.display = 'block'; // Show the sun icon
-                                    moonIcon.style.display = 'none'; // Hide the moon icon
+                        <li>
+                            <img src="moon.png" id="m_hassan_one_icon" class="moon">
+                            <img src="sun.png" id="m_hassan_one_icon2" class="sun"  >
+                            <script>
+                                document.addEventListener('DOMContentLoaded', function() {
+                                    const moonIcon = document.getElementById('m_hassan_one_icon'); // Select the moon icon
+                                    const sunIcon = document.getElementById('m_hassan_one_icon2'); // Select the sun icon
+                                    const body = document.body;
+                                
+                                    // Check if there is a theme preference stored in local storage
+                                    const themePreference = localStorage.getItem('themePreference');
+                                    if (themePreference === 'dark-theme') {
+                                        body.classList.add('dark-theme');
+                                        sunIcon.style.display = 'block'; // Show the sun icon
+                                        moonIcon.style.display = 'none'; // Hide the moon icon
+                                    } else {
+                                        body.classList.remove('dark-theme');
+                                        moonIcon.style.display = 'block'; // Show the moon icon
+                                        sunIcon.style.display = 'none'; // Hide the sun icon
+                                    }
+                                
+                                    moonIcon.addEventListener('click', function() {
+                                        body.classList.add('dark-theme'); // Apply dark theme
+                                        sunIcon.style.display = 'block'; // Show the sun icon
+                                        moonIcon.style.display = 'none'; // Hide the moon icon
+                                        localStorage.setItem('themePreference', 'dark-theme'); // Store theme preference in local storage
+                                    });
+                                
+                                    sunIcon.addEventListener('click', function() {
+                                        body.classList.remove('dark-theme'); // Remove dark theme
+                                        moonIcon.style.display = 'block'; // Show the moon icon
+                                        sunIcon.style.display = 'none'; // Hide the sun icon
+                                        localStorage.setItem('themePreference', ''); // Clear theme preference from local storage
+                                    });
                                 });
-                        
-                                sunIcon.addEventListener('click', function() {
-                                    moonIcon.style.display = 'block'; // Show the moon icon
-                                    sunIcon.style.display = 'none'; // Hide the sun icon
-                                });
-                            });
-                        </script></li>
+                            </script>
+                        </li>
                     <li>
                         <select id='language-selector'>
                             <option value="en">English</option>
@@ -130,19 +149,38 @@
                         <button onclick="changeStyleSheet()" data-lang="change">Change CSS</button>
 
                         <script>
-                        function changeStyleSheet() {
-                            var stylesheet = document.getElementById('stylesheet');
-                            
-                            // Check the current href attribute
-                            if (stylesheet.href.endsWith('css/collect.css')) {
-                                // Change to style2.css
-                                stylesheet.href = 'css/three.css';
-                            } else {
-                                // Change back to style1.css
-                                stylesheet.href = 'css/collect.css';
+                            document.addEventListener('DOMContentLoaded', function() {
+                                // Retrieve the CSS preference from local storage
+                                var cssPreference = localStorage.getItem('cssPreference');
+                                var stylesheet = document.getElementById('stylesheet');
+                    
+                                // Apply the CSS preference if it exists
+                                if (cssPreference) {
+                                    stylesheet.href = cssPreference;
+                                }
+                            });
+                    
+                            function changeStyleSheet() {
+                                var stylesheet = document.getElementById('stylesheet');
+                                var newStyleSheet = '';
+                    
+                                // Check the current href attribute
+                                if (stylesheet.href.endsWith('css/three.css')) {
+                                    // Change to style2.css
+                                    newStyleSheet = 'css/collect.css';
+                                } else {
+                                    // Change back to style1.css
+                                    newStyleSheet = 'css/three.css';
+                                }
+                    
+                                // Update the href attribute
+                                stylesheet.href = newStyleSheet;
+                    
+                                // Store the CSS preference in local storage
+                                localStorage.setItem('cssPreference', newStyleSheet);
                             }
-                        }
                         </script>
+
 
                     </li>
                 
@@ -154,6 +192,15 @@
             </section>
         </div>    
     </div>
+
+<!-----------------------------------------------------serach----------------------------------------------------------->
+<center >
+    <div class="search-bar">
+        <input type="text" id="search-input" placeholder="Search..." style="background-color: #e9a89b;border: 1px solid;margin-top: 10px;font-size: 20px;">
+        <button id="search-button" style="background-color: #e9a89b;border: 1px solid;margin-top: 10px;font-size: 20px;">Search</button>
+    </div>
+</center>
+    
 <!-------------------------------------------------------books------------------------------------------------------->
 
 
@@ -511,16 +558,51 @@
 
 
 <script src="text.js"></script>
+
 <script>
-    var icon=document.getElementById("m_hassan_one_icon");
-    icon.onclick =function(){
-        document.body.classList.toggle("dark-theme");
-    }
-    var icon2=document.getElementById("m_hassan_one_icon2");
-    icon2.onclick =function(){
-        document.body.classList.toggle("dark-theme");
-    }
+    document.addEventListener('DOMContentLoaded', function() {
+        const searchInput = document.getElementById('search-input');
+        const searchButton = document.getElementById('search-button');
+        const notFoundMessage = document.getElementById('not-found-message');
+
+        searchButton.addEventListener('click', function() {
+            const searchTerm = searchInput.value.toLowerCase().trim();
+            const elements = document.querySelectorAll(".intro, .books, .useropinion, .moreinfo");
+
+            let foundAny = false; // Flag to track if any match is found
+
+            elements.forEach(element => {
+                const headings = element.querySelectorAll('h1, h2, h3, p,h5,h4,h6');
+                let found = false;
+
+                headings.forEach(heading => {
+                    const text = heading.textContent.toLowerCase();
+                    if (text.includes(searchTerm)) {
+                        found = true;
+                        foundAny = true;
+                    }
+                });
+
+                if (found) {
+                    element.style.display = 'block';
+                } else {
+                    element.style.display = 'none';
+                }
+            });
+
+            // Display "Not Found" message if no matches are found
+            if (!foundAny) {
+                notFoundMessage.style.display = 'block';
+            } else {
+                notFoundMessage.style.display = 'none';
+            }
+        });
+    });
 </script>
+
+<div id="not-found-message" style="display: none;">No matching results found.</div>
+
+
 
 
 
